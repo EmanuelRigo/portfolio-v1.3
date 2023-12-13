@@ -1,0 +1,78 @@
+body {
+  background-image: linear-gradient(
+    225deg,
+    #a9d9ff 0,
+    #68a3ff 25%,
+    #236ddb 50%,
+    #003b87 75%,
+    #000e3f 100%
+  );
+}
+
+#root {
+  width: 100vw;
+}
+
+/*////ASIDE////*/
+
+.mynavbar {
+  width: 75px;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  transition: 1s ease-out;
+
+  z-index: 400;
+}
+
+.mynavbar__container {
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(4px);
+  border-top: solid 2px rgba(255, 255, 255, 0.18);
+  border-bottom: solid 2px rgba(255, 255, 255, 0.18);
+  border-right: solid 2px rgba(255, 255, 255, 0.18);
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+
+.mynavbar:hover {
+  width: 370px;
+}
+
+.navbar__container {
+  width: 660px;
+  margin: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  box-sizing: border-box;
+  cursor: pointer;
+  text-decoration: none;
+  height: 47px;
+  box-sizing: border-box;
+}
+
+.navbar__container:hover i {
+  color: rgb(255, 255, 255);
+
+  transform: scale(1.2);
+}
+
+.navbar__container i {
+  font-size: 35px;
+  color: whitesmoke;
+  display: flex;
+  align-items: center;
+}
+
+.mynavbar p {
+  display: inline-block;
+  color: aliceblue;
+  margin-left: 24px;
+}
+
+/*/////*/
