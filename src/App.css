@@ -11,6 +11,7 @@ body {
 
 #root {
   width: 100vw;
+  padding-left: 75px;
 }
 
 /*////ASIDE////*/
@@ -39,6 +40,17 @@ body {
   border-bottom-right-radius: 1rem;
 }
 
+.navbar__container:hover {
+  border-radius: 3px solid white;
+}
+
+.bgd-transparent {
+  border-radius: 1rem;
+  background: rgba(255, 255, 255, 0.15);
+  border: solid 2px rgba(255, 255, 255, 0.18);
+  backdrop-filter: blur(4px);
+}
+
 .mynavbar:hover {
   width: 370px;
 }
@@ -56,17 +68,17 @@ body {
   box-sizing: border-box;
 }
 
-.navbar__container:hover i {
-  color: rgb(255, 255, 255);
-
-  transform: scale(1.2);
-}
-
 .navbar__container i {
   font-size: 35px;
   color: whitesmoke;
   display: flex;
   align-items: center;
+}
+
+.navbar__container:hover i {
+  color: rgb(255, 255, 255);
+
+  transform: scale(1.2);
 }
 
 .mynavbar p {
