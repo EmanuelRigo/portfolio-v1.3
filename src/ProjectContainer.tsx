@@ -15,9 +15,10 @@ import ProjectCard from "./ProjectCard";
 
 function ProjectContainer() {
   return (
-    <Col xs={12} className="bgd-transparent px-4">
+    <Col id="projects" xs={12} className="bgd-transparent px-4">
       <Row className="custom-border p-0 py-4  ">
         <Col lg={6} className="px-md-3 order-md-2 p-0">
+          <h3 className="text-light display-6">Mini Projectos</h3>
           <ProjectCard
             image="cafe 00.png"
             name="Cafe"
@@ -31,6 +32,21 @@ function ProjectContainer() {
           ></ProjectCard>
         </Col>
         <Col lg={6} className="px-md-3 order-md-1 p-0">
+          <h3 className="text-light display-6">Projectos</h3>
+          <ProjectCard
+            image={"../images/e-techstore 00.png .png"}
+            name={"E-TechStore"}
+            description={
+              "E-commerce React: Tecnología y gaming fusionados para ofrecer una experiencia de compra dinámica"
+            }
+            link="https://github.com/EmanuelRigo/videoteca"
+            icons={[
+              <AiFillHtml5 className="project__icon" />,
+              <BiLogoCss3 className="project__icon" />,
+              <BiLogoJavascript className="project__icon" />,
+              <BiLogoFirebase className="project__icon" />,
+            ]}
+          />
           <ProjectCard
             image="../images/lab 01.png"
             name="Lab"
@@ -50,6 +66,18 @@ function ProjectContainer() {
             name={"Videoteca"}
             description={"Pagina con informacion de peliculas"}
             link="https://github.com/EmanuelRigo/videoteca"
+            icons={[
+              <AiFillHtml5 className="project__icon" />,
+              <BiLogoCss3 className="project__icon" />,
+              <BiLogoJavascript className="project__icon" />,
+              <BiLogoFirebase className="project__icon" />,
+            ]}
+          />
+          <ProjectCard
+            image={"../images/playask 00.png"}
+            name={"PlayAsk"}
+            description={"Aplicacion de trivia con diversas categorias"}
+            link="https://github.com/EmanuelRigo/playask"
             icons={[
               <AiFillHtml5 className="project__icon" />,
               <BiLogoCss3 className="project__icon" />,

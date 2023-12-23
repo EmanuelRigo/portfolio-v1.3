@@ -4,7 +4,9 @@ import InputGroup from "react-bootstrap/InputGroup";
 function Contact() {
   return (
     <>
-      <h2 className="text-light text-center mt-5">Contacto</h2>
+      <h2 id="contacto" className="text-light text-center mt-5">
+        Contacto
+      </h2>
       <Form className="Row justify-content-center p-4 mx-3 my-4 bgd-transparent">
         <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
           <Form.Label className="text-light">Nombre y Apellido</Form.Label>

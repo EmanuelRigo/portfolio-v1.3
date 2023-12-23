@@ -7,6 +7,15 @@ body {
     #003b87 75%,
     #000e3f 100%
   );
+
+  /*   background-image: linear-gradient(
+    225deg,
+    #a9d9ff 100%,
+    #68a3ff 75%,
+    #236ddb 50%,
+    #003b87 5%,
+    #000e3f 0%
+  ); */
 }
 
 #root {
@@ -48,10 +57,13 @@ body {
   border-radius: 1rem;
   background: rgba(255, 255, 255, 0.15);
   border: solid 2px rgba(255, 255, 255, 0.18);
-  backdrop-filter: blur(4px);
 }
 
 .mynavbar:hover {
+  width: 370px;
+}
+
+.mynavbar:focus {
   width: 370px;
 }
 
@@ -104,6 +116,19 @@ body {
   cursor: pointer;
 }
 
+.projectCard__description {
+  cursor: pointer;
+}
+
+.projectCard__description.text-truncate {
+  width: 80%;
+  transition: 0.5s;
+}
+
+.projectCard__description:hover.text-truncate {
+  width: 100%;
+}
+
 .projectCard__img:hover {
   filter: brightness(1);
   transform: scale(1.05);
@@ -114,6 +139,10 @@ body {
   font-size: 1.8rem;
   cursor: pointer;
   transition: 0.3s;
+}
+
+.projectCard svg {
+  font-size: 1.5rem;
 }
 
 .projectCard__gitIcon:hover {

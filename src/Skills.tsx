@@ -19,12 +19,12 @@ function Skills() {
   const [nombreLenguaje, setNombreLenguaje] = useState();
 
   const handleChangeName = (e) => {
-    const copiaNombreLenguaje = e.target.dataset.nombre;
-    setNombreLenguaje(copiaNombreLenguaje);
+    const nombre = e.currentTarget.getAttribute("data-nombre");
+    setNombreLenguaje(nombre);
   };
 
   return (
-    <div className="skills">
+    <div className="skills my-5">
       <h2>Trabajo con {nombreLenguaje} </h2>
 
       <Row className="justify-content-center mb-5">
@@ -34,6 +34,7 @@ function Skills() {
             onMouseEnter={handleChangeName}
             className="icono html"
           />
+
           <BiLogoCss3
             data-nombre="Css"
             onMouseEnter={handleChangeName}

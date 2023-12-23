@@ -1,5 +1,5 @@
 //import "../stylesheets/NavBar.css";
-import { BsGithub, BsTelephone } from "react-icons/bs";
+import { BsGithub, BsWhatsapp } from "react-icons/bs";
 import { AiOutlineMail } from "react-icons/ai";
 import { PiFolderSimpleUserLight } from "react-icons/pi";
 
@@ -13,19 +13,19 @@ function Aside() {
           </i>
           <p>GitHub</p>
         </a>
-        <a href="" className="navbar__container">
+        <a href="https://wa.link/8b7k9a" className="navbar__container">
           <i>
-            <BsTelephone></BsTelephone>
+            <BsWhatsapp />
           </i>
           <p>11-6269-9719</p>
         </a>
-        <a href="" className="navbar__container">
+        <a href="#contacto" className="navbar__container">
           <i>
             <AiOutlineMail></AiOutlineMail>
           </i>
           <p>emanuel-rigo@outlook.com.ar</p>
         </a>
-        <a href="" className="navbar__container">
+        <a href="#projects" className="navbar__container">
           <i>
             <PiFolderSimpleUserLight></PiFolderSimpleUserLight>
           </i>
