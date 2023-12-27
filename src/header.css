@@ -1,41 +1,4 @@
-.typewritter {
-  width: 13ch;
-  animation: typing 8s steps(13) forwards infinite alternate,
-    blink 0.5s step-end infinite alternate;
-  white-space: nowrap;
-  overflow: hidden;
-  border-right: 3px solid;
-  font-family: monospace;
-  font-size: 2em;
-}
-
-@keyframes typing {
-  0%,
-  100% {
-    width: 0;
-  }
-  50% {
-    width: 13ch;
-  }
-}
-@keyframes blink {
-  50% {
-    border-color: transparent;
-  }
-}
-
-.header .text-truncate {
-  width: 0px;
-  animation: text-width 8s forwards infinite alternate;
+.header {
   background-color: red;
-}
-
-@keyframes text-width {
-  0% {
-    width: 0px;
-  }
-
-  100% {
-    width: 100%;
-  }
+  margin: 5rem;
 }

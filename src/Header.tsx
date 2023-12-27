@@ -4,8 +4,11 @@ import { Container, Row, Col, Image, Card } from "react-bootstrap";
 
 function Header() {
   return (
-    <Row className="vh-100 header">
-      <Col md={12} className="d-flex  justify-content-center  flex-column">
+    <Row className="vh-100 header p-4">
+      <Col
+        md={12}
+        className="d-flex bg-dark justify-content-center  flex-column"
+      >
         <div>
           <h1 className="text-light typewritter">EMANUEL RIGO</h1>
           <h1 className="text-light">

@@ -11,7 +11,7 @@ import "./App.css";
 function App() {
   return (
     <>
-      <Container>
+      <Container fluid={"lg"} className="dark">
         <Aside></Aside>
         <Header></Header>
         <Hero></Hero>

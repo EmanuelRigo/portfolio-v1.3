@@ -1,21 +1,5 @@
 body {
-  background-image: linear-gradient(
-    225deg,
-    #a9d9ff 0,
-    #68a3ff 25%,
-    #236ddb 50%,
-    #003b87 75%,
-    #000e3f 100%
-  );
-
-  /*   background-image: linear-gradient(
-    225deg,
-    #a9d9ff 100%,
-    #68a3ff 75%,
-    #236ddb 50%,
-    #003b87 5%,
-    #000e3f 0%
-  ); */
+  background: #e2ddd5;
 }
 
 #root {
@@ -40,7 +24,7 @@ body {
 
 .mynavbar__container {
   overflow: hidden;
-  background: rgba(255, 255, 255, 0.15);
+  background: #f5f2ed;
   backdrop-filter: blur(4px);
   border-top: solid 2px rgba(255, 255, 255, 0.18);
   border-bottom: solid 2px rgba(255, 255, 255, 0.18);
@@ -84,7 +68,7 @@ body {
 
 .navbar__container i {
   font-size: 35px;
-  color: whitesmoke;
+  color: #100e0e;
   display: flex;
   align-items: center;
   transition: 0.3s;
@@ -100,7 +84,7 @@ body {
 
 .mynavbar p {
   display: inline-block;
-  color: aliceblue;
+  color: #100e0e;
   margin-left: 24px;
   margin-bottom: 0;
 }
